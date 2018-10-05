@@ -4,8 +4,6 @@
         
 		echo "<pre>$output</pre>";
 		
-		echo 'teste 123 ';
-		
         die("done " . time());
         
         ?>
