@@ -1,6 +1,6 @@
 <?php 
         
-        $output = shell_exec("cd /var/www; git pull");
+        $output = shell_exec('echo "hello world"');
         
         var_dump($output);
 
