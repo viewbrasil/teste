@@ -1,7 +1,7 @@
 <?php 
         
-        $output = shell_exec("cd /var/www; git pull apache master");
-        var_dump($output);
+        $output = shell_exec("cd /var/www; git pull");
+
 		echo "<pre>$output</pre>";
         die("done " . time());
         
