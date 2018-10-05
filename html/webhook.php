@@ -1,9 +1,7 @@
 <?php 
         
-        $output = shell_exec('echo "hello world"');
+        $output = shell_exec("cd /var/www; git pull master");
         
-        var_dump($output);
-
 		echo "<pre>$output</pre>";
 		
 		echo 'teste 123 ';
