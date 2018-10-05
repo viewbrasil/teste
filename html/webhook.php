@@ -1,6 +1,6 @@
 <?php 
         
-        $output = shell_exec("cd /var/www; git pull master");
+        $output = shell_exec("cd /var/www; git pull apache master");
         
 		echo "<pre>$output</pre>";
 		
